@@ -1,13 +1,13 @@
 name: RUN-free-cloud Auto Task
 on:
   schedule:
-    - cron: "38 1 * * *"
+    - cron: "38 23 * * *"
   workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     permissions:
       contents: write
 
