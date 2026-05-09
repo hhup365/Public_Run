@@ -1,7 +1,7 @@
 name: RUN-free-cloud Auto Task
 on:
   schedule:
-    - cron: "22 2 * * *"
+    - cron: "20 5 * * *"
   workflow_dispatch:
 
 jobs:
